@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Popup Form -->
+    <div id="popup">
+        <!-- Popup Overlay -->
+        <div class="popup-overlay"></div>
+        <!-- Popup Content -->
+        <div id="popup_content">
+            <!-- Form -->
+            <form action="#" name="form">
+                <h5>Contact Us</h5>
+                <hr>
+                <input type="text" class="popupInput" name="name" placeholder="Name">
+                <input type="text" class="popupInput" name="email" placeholder="Email">
+                <input type="password" class="popupInput" name="password" placeholder="Password">
+                <textarea id="message" class="popupInput" name="message" placeholder="Message"></textarea>
+                <a href="#" class="color submit">Send</a>
+                <input type="button" class="color submit" id="closeButton" name="close" value="close" placeholder="Close">
+            </form>
+        </div>
+    </div>
+    <!-- Display Popup Button -->
+    <h1>Click Button To Show Popup Form</h1>
+    <button id="showButton" class="color">Popup</button>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
